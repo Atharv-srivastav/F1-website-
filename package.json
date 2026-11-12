@@ -1,0 +1,13 @@
+{
+  "name": "race-mania-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Workspace entry point for the Race Mania application.",
+  "scripts": {
+    "preinstall": "npm --prefix F1-website-main install",
+    "dev": "npm --prefix F1-website-main run dev",
+    "build": "npm --prefix F1-website-main run build",
+    "lint": "npm --prefix F1-website-main run lint",
+    "preview": "npm --prefix F1-website-main run preview"
+  }
+}
